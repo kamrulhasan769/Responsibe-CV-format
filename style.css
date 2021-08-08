@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:khaki;
+    font-family: 'Rajdhani', sans-serif;
+    position: relative;
+}
+.container{
+    max-width: 1200px;
+    background-color: lightcyan;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-image{
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 25px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(2, 37, 37);
+}
+.header-cotact{
+    float: right;
+    padding: 30px;
+}
+.header-cotact a{
+    text-decoration: none;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+.header-cotact a:hover{
+    text-decoration: underline;
+    color: tomato;
+
+}
+.clear-div{
+    clear: both;
+}
+hr{
+    border: solid 3px black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+
+}
+.info{
+    padding: 10px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+    position: relative;
+    
+}
+.right-div{
+    width: 60%;
+    float: right;
+    font-size: 20px;
+    position: relative;
+    }
+    .common-hr{
+        border: solid black 1px;
+        margin-bottom: 10px;
+    }
+    .bottom{
+        background-color: chocolate;
+        text-align: center;
+        padding: 20px;
+    }
+.bottom a{
+    color: cornsilk;
+    margin: 30px;
+    text-decoration: none;
+}
+@media screen and (max-width: 800px){
+    .body{
+        background-color:lightpink;
+        position: relative;
+    }
+    .container{
+        width: 650px;
+        background-color:teal;
+    
+    }
+    .profile-image{
+        width: 60px;
+        height: auto;
+        border: 2px solid black;
+        border-radius: 50%;
+        float: left;
+    }
+    .header-bio{
+        padding: 5px;
+        margin: 0 auto;
+    }
+    h1,h2,h3,h4,h5,h6{
+        color: rgb(2, 37, 37);
+    }
+    .header-cotact{
+        padding: 30px;
+        float: left;
+    }
+    .header-cotact a{
+        text-decoration: none;
+        color:wheat;
+        margin: 0 auto;
+    }
+    .header-cotact a:hover{
+        text-decoration: underline;
+        color: tomato;
+    
+    }
+    .clear-div{
+        clear: both;
+    }
+    hr{
+        border: solid 3px black;
+        width: 100%;
+        margin: 20px auto;
+        border-bottom: none;
+    
+    }
+    .info{
+        padding: 5px;
+        position: relative;
+    }
+    .left-div{
+        position: absolute;
+        font-weight: bold;
+        text-align: center;
+        padding: 10em;
+        
+    }
+    /**.right-div{
+        font-size: 10px;
+        position: absolute;
+       
+        
+        }**/
+        .common-hr{
+            background-color: black;
+            
+        }
+        .bottom{
+            background-color: gray;
+            text-align: center;
+            padding: 20px;
+        }
+    .bottom a{
+        color: cornsilk;
+        margin: 10px;
+        text-decoration: none;
+
+    }
+}
+
